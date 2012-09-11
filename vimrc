@@ -70,6 +70,8 @@ set hlsearch    " highlight matches
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
+" ack setup
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " mappings
 """"""""""""
@@ -114,6 +116,8 @@ let g:rubycomplete_include_object = 1
 let g:rubycomplete_include_objectspace = 1
 
 
+" default font setting
+set guifont=Monospace\ 9
 
  
 "" setting up grep.vim plugin
@@ -146,8 +150,6 @@ let g:rubycomplete_include_objectspace = 1
 "" taglist opens on right hand side
 "let Tlist_Use_Right_Window=1
 "
-"" default font setting
-"set guifont=Monospace\ 9
 "
 "" ctags shortcut
 "" don't use this

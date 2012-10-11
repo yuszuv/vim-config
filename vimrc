@@ -85,7 +85,7 @@ noremap <silent> <F4> :set hlsearch! hlsearch?<CR>" Press F4 to toggle highlight
 nmap ö <C-[>
 nmap ä <C-]>
 nmap ü [
-nmap ü ]
+nmap ß ]
 
 " easier moving between windows
 nnoremap <silent> ¿ :wincmd<SPACE>h<CR>

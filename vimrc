@@ -217,3 +217,9 @@ inoremap <C-Space> 
 "inoremap  
 "inoremap  
 
+
+" auto-commands
+"
+" sets .pl files to prolog synatx
+au BufRead,BufNewFile *.pl set filetype=prolog sw=2 ts=2
+

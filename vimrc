@@ -222,4 +222,3 @@ inoremap <C-Space> 
 "
 " sets .pl files to prolog synatx
 au BufRead,BufNewFile *.pl set filetype=prolog sw=2 ts=2
-

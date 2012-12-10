@@ -28,3 +28,6 @@
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "bundle/vim-taglist-plus"]
+	path = bundle/vim-taglist-plus
+	url = https://github.com/int3/vim-taglist-plus

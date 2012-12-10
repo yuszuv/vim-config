@@ -108,6 +108,11 @@ inoremap <C-x><C-o> <C-x><C-o><C-p>
 set completeopt=menuone,preview
 
 
+" taglist settings
+map <silent> <F3> :TlistToggle<CR>
+let Tlist_Use_Right_Window=1
+
+
 
 " vim-ruby settings
 let g:rubycomplete_buffer_loading=1 "include current buffer
